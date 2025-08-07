@@ -33,14 +33,14 @@ An intelligent Q&A web application that allows users to register, log in, and in
 
 ## 1. **Clone the repository**
 
-```bash
+### bash
 git clone https://github.com/your-username/ai-qa-platform.git
 cd ai-qa-platform
 
 ## 2. **Setup Backend
 cd server
 npm install
-'''Create .env file in server/:
+### Create .env file in server/:
 MONGO_URI=your_mongodb_atlas_uri
 PORT=5050
 ## 3. **Start backend server:
