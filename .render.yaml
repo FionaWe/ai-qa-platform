@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ai-qa-backend
+    env: node
+    plan: free
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: MONGO_URI
+        value: mongodb+srv://fiona:fiona453@cluster1.tageayv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
+      - key: PORT
+        value: 5050
