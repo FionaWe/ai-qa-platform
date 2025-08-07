@@ -32,27 +32,26 @@ An intelligent Q&A web application that allows users to register, log in, and in
 
 ## ⚙️ Local Setup
 
-## 1. **Clone the repository**
+1. **Clone the repository**
 
 ### bash
 git clone https://github.com/your-username/ai-qa-platform.git
 cd ai-qa-platform
-
-## 2. **Setup Backend
+2. **Setup Backend
 cd server
 npm install
 ### Create .env file in server/:
 MONGO_URI=your_mongodb_atlas_uri
 PORT=5050
-## 3. **Start backend server:
+3. **Start backend server:
 node index.js
-## 4.**Setup Frontend
+4.**Setup Frontend
 cd ../client
 npm install
 npm run dev
-## 5.**Start Ollama locally
+5.**Start Ollama locally
 ollama run deepseek-coder:instruct
-## 🔐 Environment Variables
+🔐 Environment Variables
 | Variable    | Description                                  |
 | ----------- | -------------------------------------------- |
 | MONGO\_URI  | MongoDB connection string                    |
@@ -66,7 +65,7 @@ Backend: Deployed via Render
 Database: MongoDB Atlas (Cloud MongoDB)
 
 🔒 Don't forget to whitelist your Render IPs in MongoDB Atlas
-## ⭐ Star This Project
+⭐ Star This Project
 If you find this project helpful, feel free to star it on GitHub!
 
 
