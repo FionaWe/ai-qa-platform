@@ -5,8 +5,9 @@ An intelligent Q&A web application that allows users to register, log in, and in
 
 ## 🚀 Live Demo
 
-- **Frontend (Vercel):** [https://your-vercel-app.vercel.app](https://your-vercel-app.vercel.app)
-- **Backend (Render):** [[https://your-render-api.onrender.com](https://your-render-api.onrender.com)](https://ai-qa-platform.onrender.com)
+- **Frontend (Vercel):** ai-qa-platform-eight.vercel.app
+
+- **Backend (Render):** (https://ai-qa-platform.onrender.com)
 
 ## ✨ Features
 
